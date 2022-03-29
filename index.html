@@ -13,9 +13,123 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>My First Bootstrap Page</h1>
-        <p>This is some text. This is more text. This is even MORE text.</p>
+
+    <div class="container-fluid p-5 bg-dark text-white">
+        <h1>Strange Weapon Bounties</h1>
+        <p>I lend you a strange weapon. You have 24 hours to fulfill the listed condition if you want to keep it.</p>
+    </div>
+
+    <div class="container-fluid p-5 bg-success text-white text-center">
+        <h1>Your current bounty:</h1>
+        <img src="https://community.cloudflare.steamstatic.com/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZULUrsm1j-9xgEbZQsUYhTkhzJWhsPZAfOeD-VOn4phtsdQ32ZtxFYoN7PkYmVmIgeaUKNaX_Rjpwy8UHMz6pcxAIfnovUWJ1t9nYFqYw/330x192"
+            class="rounded" alt="Your bounty">
+        <p>Scrap Metal</p>
+        <p>"This sucks on ice!"</p>
+        <p>999 kills to keep | 42069 for a craft hat</p>
+        <p>Try not to die.</p>
+        <p>Time started: 13:30:30</p>
+        <p>Time remaining: 10:29:30</p>
+    </div>
+
+    <p class="display-5 p-5 text-center">Rules</p>
+    <p class="text-center">-Your steam account must be able to immediately trade items (no trade holds)<br>
+        -If you don't return the item, you'll be banned from all my future events and giveaways<br>
+        -I trust you to only use Valve/Uncletopia Servers for these challenges<br>
+        -DM me which bounty you would like to attempt (check the link below for AVAILABLE BOUNTIES)<br>
+        -If someone is currently doing the bounty, you will be added to a queue for that weapon<br>
+        -If you are in a queue, you will only get the bounty if the previous contractor failed<br>
+        -If it is your turn, I will notify you on discord and you can accept the trade offer anytime within 12 hours<br>
+        -You cannot queue for more than 2 weapons at a time and you cannot do more than 1 weapon bounty at a time<br>
+        -Your 24 hours start IMMEDIATELY after you accept the trade<br>
+        -Before the time for your bounty ends, you have to DM me a screenshot of the amount of kills you have on the weapon to prove you have done it within those 24 hours, or else it wont be counted<br>
+        -If you fail, you have to return the weapon back within another 12 hours<br>
+        -You may not do or queue for another bounty until the 24 hours you had with the weapon are up</p>
+
+    <div class="px-5 mt-5 table-responsive">
+        <h1>Recently Completed Bounties</h1>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Contractor</th>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Condition</th>
+                    <th>Tip(s)</th>
+                    <th>Failed by</th>
+                    <th>Extra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img class="rounded-circle img-fluid" src="https://cdn.discordapp.com/avatars/222025207789912064/a10ecd50fc7ee7d387993237e7f3c115.png?size=1024" alt="Discord Profile Picture">
+                        gaming#7155
+                    </td>
+                    <td>Scrap Metal</td>
+                    <td>This sucks on ice!</td>
+                    <td>999 kills to keep<br>
+                        42069 for a craft hat
+                    </td>
+                    <td>john@example.com</td>
+                    <td>john@example.com</td>
+                    <td>john@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="px-5 mt-5">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container mt-5">
+        <h1>Reviews.</h1>
+        <p><strong>Real</strong> people, <strong>Real</strong> reviews:</p>
+        <blockquote class="blockquote bg-light p-3">
+            <p>This sucks.</p>
+            <footer class="blockquote-footer">You</footer>
+        </blockquote>
+        <div class="px-5">
+            <blockquote class="blockquote bg-light p-3">
+                <p>What? Why?</p>
+                <footer class="blockquote-footer">Me</footer>
+            </blockquote>
+        </div>
+        <blockquote class="blockquote bg-light p-3">
+            <p>I don't know, it just does.</p>
+            <footer class="blockquote-footer">You</footer>
+        </blockquote>
+        <div class="px-5">
+            <blockquote class="blockquote bg-light p-3">
+                <p>What do you mean it just does? That doesn- you're not making any sense here.</p>
+                <footer class="blockquote-footer">Me</footer>
+            </blockquote>
+        </div>
     </div>
 </body>
 
